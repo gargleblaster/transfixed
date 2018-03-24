@@ -17,6 +17,7 @@ setup(
     author_email='alexy@th3sys.com',
     license='MIT',
     platforms=['any'],
+    use_2to3 = True,
     classifiers=[
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.6'
